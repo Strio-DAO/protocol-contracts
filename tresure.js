@@ -149,6 +149,8 @@ function CreatorIndex(idxWa){
 
     }
 
+    
+
     this.unstake = function (){
         
         console.log('erc20 balance IDX_POOL : ', erc20.balanceOf(this._idxWa) )
